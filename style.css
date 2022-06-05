@@ -19,6 +19,7 @@
   justify-content: center;
   align-items: center;
 }
+/* Giving properties to a ball and also giving a time to ball to complete one rotation */
 .ball {
   width: 50px;
   height: 50px;
@@ -31,6 +32,7 @@
 
   animation: circle 3s infinite;
 }
+/* Using the keyframes to animate the ball around the main object */
 @keyframes circle {
   0% {
     left: 50px;
